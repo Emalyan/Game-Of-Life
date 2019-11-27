@@ -1,0 +1,10 @@
+.login-form {
+  position: absolute;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+.login-button {
+  margin: auto 0 auto 50px;
+}

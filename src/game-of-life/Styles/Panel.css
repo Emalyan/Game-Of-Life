@@ -1,0 +1,63 @@
+.universes-panel ul {
+  background: white;
+  margin: 0 0 5px 0;
+  position: absolute;
+  border: 1px solid;
+  padding: 5px 5px 5px 25px;
+}
+
+.universes-panel ul li {
+  cursor: pointer;
+}
+
+.account-panel {
+  position: absolute;
+  background: white;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.game-control-buttons {
+  margin: auto 0;
+}
+
+.save-universe {
+  margin: auto 0 auto 15px;
+}
+
+.save-universe-panel {
+  position: absolute;
+  background: white;
+  padding: 5px;
+  border: 1px solid;
+  margin-left: 5px;
+}
+
+.upload-universes {
+  margin: auto 0;
+}
+
+.account-setting {
+  margin: auto 50px auto auto;
+}
+
+.account-setting .open-setting {
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  background: bottom;
+}
+
+.account-panel button {
+  border-radius: 0;
+  background-color: lightgray;
+}
+
+button {
+  border-radius: 8px;
+  background: bottom;
+  height: 30px;
+  min-width: 70px;
+  margin: 5px;
+}

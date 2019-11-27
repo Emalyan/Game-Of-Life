@@ -1,0 +1,35 @@
+.board-contaniner {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.panel {
+  display: flex;
+  background: ghostwhite;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 7px,
+    inset rgba(252, 255, 255, 0.7) 0 5px 20px, rgba(0, 0, 0, 0.8) 0 2px 1px -4px;
+}
+
+.inputSize {
+  margin: 10px;
+}
+
+.cellContainerDead {
+  display: flex;
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid black;
+}
+
+.cellContainerLive {
+  display: flex;
+  padding: 10px;
+  margin: 1px;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+}
